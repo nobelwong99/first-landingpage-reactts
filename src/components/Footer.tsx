@@ -3,9 +3,9 @@ import React from "react";
 function Footer() {
 	return (
 		<div className="text-center text-slate-500 py-5 opacity-70">
-			<div className="flex items-center justify-center pb-5">
+			{/* <div className="flex items-center justify-center pb-5">
 				<a
-					href="https://google.com"
+					href="https://instagram.com"
 					className="text-blue hover:rotate-45"
 				>
 					<svg
@@ -44,7 +44,7 @@ function Footer() {
 					</svg>
 				</a>
 				<a
-					href="https://google.com"
+					href="https://twitter.com"
 					className="ml-5 text-blue hover:rotate-45"
 				>
 					<svg
@@ -66,7 +66,7 @@ function Footer() {
 					</svg>
 				</a>
 				<a
-					href="https://google.com"
+					href="https://facebook.com"
 					className="ml-5 text-blue hover:rotate-45"
 				>
 					<svg
@@ -87,8 +87,8 @@ function Footer() {
 						<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
 					</svg>
 				</a>
-			</div>
-			The Contacts Company, 2023
+			</div> */}
+			TheContacts Co, 2023
 		</div>
 	);
 }
