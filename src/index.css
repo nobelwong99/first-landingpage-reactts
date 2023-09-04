@@ -72,9 +72,55 @@ div.scroll-container {
 	/* background-color: #333;
 	border-radius: 30px; */
 	overflow: auto;
-	white-space: nowrap;
+	/* white-space: nowrap; */
 	padding: 5px;
 	/* width: 1000px; */
+}
+
+.ul {
+	display: inline-block;
+}
+
+.scroll-parent {
+	position: relative;
+	width: 50vw;
+	height: 20rem;
+	overflow-x: hidden;
+}
+
+.scroll-element {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	animation: primary 10s linear infinite;
+}
+
+.primary {
+	animation: primary 10s linear infinite;
+}
+
+.secondary {
+	animation: secondary 10s linear infinite;
+}
+
+@keyframes primary {
+	from {
+		left: 0%;
+	}
+	to {
+		left: -100%;
+	}
+}
+
+@keyframes secondary {
+	from {
+		left: 100%;
+	}
+	to {
+		left: 0%;
+	}
 }
 
 div.scroll-container img {
